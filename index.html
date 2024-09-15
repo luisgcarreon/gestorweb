@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Software para escuelas particulares </title>
+  <!-- Captcha-->
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Bootstrap JS (Necesario para los modales) -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> -->
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+  <style>
+    /* Oculta el botón de enviar inicialmente */
+    #submit-button {
+        display: none;
+    }
+</style>
+
+  <!-- =======================================================
+  * Template Name: Arsha
+  * Template URL: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
+  * Updated: Jun 29 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h2 class="sitename">Gestor escolar</h2>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Inicio</a></li>
+          <li><a href="#about">Acerca</a></li>
+          <li><a href="#services">Servicios</a></li>
+          <!-- <li><a href="#portfolio">Ejemplos</a></li> -->
+          <!-- <li><a href="#team">Team</a></li> -->
+          <li><a href="#pricing">Precios</a></li>
+          <li><a href="ebooks.html">Ebooks</a></li>
+          <!-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Dropdown 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Deep Dropdown 1</a></li>
+                  <li><a href="#">Deep Dropdown 2</a></li>
+                  <li><a href="#">Deep Dropdown 3</a></li>
+                  <li><a href="#">Deep Dropdown 4</a></li>
+                  <li><a href="#">Deep Dropdown 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Dropdown 2</a></li>
+              <li><a href="#">Dropdown 3</a></li>
+              <li><a href="#">Dropdown 4</a></li>
+            </ul>
+          </li> -->
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="btn-getstarted" href="clientes/index.php">Panel de cliente</a>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="zoom-out">
+            <h1>El mejor Software de control escolar</h1>
+            <p>Administrar la cobranza y calificaciones es nuestra pasión</p>
+            <div class="d-flex">
+              <a href="clientes/contratar.php" class="btn-get-started">Contratar</a>
+              <a href="https://youtu.be/ZKnCiX7s8Lg" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Ver Video</span></a>
+              <!-- https://youtu.be/ZKnCiX7s8Lg -->
+            </div>
+          </div>
+          <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="200">
+            <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- Clients Section -->
+    <section id="clients" class="clients section light-background">
+
+      <div class="container" data-aos="zoom-in">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 700,
+              "autoplay": {
+                "delay": 6000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 2,
+                  "spaceBetween": 40
+                },
+                "480": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 60
+                },
+                "640": {
+                  "slidesPerView": 4,
+                  "spaceBetween": 80
+                },
+                "992": {
+                  "slidesPerView": 5,
+                  "spaceBetween": 120
+                },
+                "1200": {
+                  "slidesPerView": 6,
+                  "spaceBetween": 120
+                }
+              }
+            }
+          </script>
+          <!-- Marcas en movimiento -->
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Clients Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Acerca de nosotros</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
+            <p>
+              En Gestor escolar nos dedicamos a crear el mejor software para escuelas y colegios particulares en México, poniendo al centro la satisfacción de nuestros clientes.
+            </p>
+            <ul>
+              <li><i class="bi bi-check2-circle"></i> <span>Aplicamos sistemas de trabajo modermas como SCRUM.</span></li>
+              <li><i class="bi bi-check2-circle"></i> <span>Aprendemos y utilizamos de las nuevas tecnologías constantemente .</span></li>
+              <li><i class="bi bi-check2-circle"></i> <span>Contamos con la mejor ciberseguridad para la integridad de los datos</span></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <p>Desde 2017 hemos trabajado en la implementación de sistemas en diferentes tipos de instituciones escolares. Esto nos permitio desarrollar una mejor plataforma con las herramientas que solucionan las necesidades de tu colegio</p>
+            <a href="#" class="read-more"><span>Conocer más...</span><i class="bi bi-arrow-right"></i></a>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Why Us Section -->
+    <section id="why-us" class="section why-us light-background" data-builder="section">
+
+      <div class="container-fluid">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-7 d-flex flex-column justify-content-center order-2 order-lg-1">
+
+            <div class="content px-xl-5" data-aos="fade-up" data-aos-delay="100">
+              <h3><span>Estas son las soluciones </span><strong>que tenemos para tu escuela o institución</strong></h3>
+              <p>
+                Controlar los procesos de tu institución, desde la cobranza, hasta el control de asistencias y calificaciones. Con Gestor escolar, puedes tener la información de tu colegio en tiempo real y a la mano para tomar desiciones.
+              </p>
+            </div>
+
+            <div class="faq-container px-xl-5" data-aos="fade-up" data-aos-delay="200">
+
+              <div class="faq-item faq-active">
+
+                <h3><span>01</span> Control de la cobranza y cartera vencida</h3>
+                <div class="faq-content">
+                  <p>Llevamos de manera correcta los pagos de los alumnos y controlamos los recargos, becas, descuentos, y fechas de vencimiento, podemos llevar la cuenta de cada alumno.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3><span>02</span> Seguimiento académico de alumnos y reportes</h3>
+                <div class="faq-content">
+                  <p>Obten de forma fácil cualquier información de tus alumnos. Podemos ofrecer reportes, boletas, kardex o cualquier dato de forma rápida con pocos clicks. </p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3><span>03</span> Mejora la calidad de tus servicios y protejela de hackeos</h3>
+                <div class="faq-content">
+                  <p>Contar con Gestor escolar, provee seguridad e integridad en la información de los alumnos, padres, profesores o personal administrativo. Además acerca y mejora la calidad de tus servicios con el modulo especial de Padres</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-5 order-1 order-lg-2 why-us-img">
+            <img src="assets/img/why-us.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="100">
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Why Us Section -->
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row">
+
+          <div class="col-lg-6 d-flex align-items-center">
+            <img src="assets/img/skills.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-6 pt-4 pt-lg-0 content">
+
+            <h3>Información en tiempo real y a la mano para tomar desiciones</h3>
+            <p class="fst-italic">
+              Reportes de cobranza, calificaciones, asistencias, adeudos, concentrados, kardex, boletas, etc.
+            </p>
+
+            <div class="skills-content skills-animation">
+
+              <div class="progress">
+                <span class="skill"><span>Reducción de cartera vencida</span> <i class="val">90%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+
+              <div class="progress">
+                <span class="skill"><span>Mejorar la atención a clientes</span> <i class="val">95%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+
+              <div class="progress">
+                <span class="skill"><span>Mejorar la comunicación</span> <i class="val">80%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+
+              <div class="progress">
+                <span class="skill"><span>Mejorar el rendimiento académico</span> <i class="val">85%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Skills Section -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Servicios</h2>
+        <p>Estas son algunas de las funciones que cuenta el Gestor escolar listas para tu institución</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-activity icon"></i></div>
+              <!-- <h4><a href="" class="stretched-link">Pagos en linea o referencias</a></h4> -->
+              <h4><a href="#" class="stretched-link" data-bs-toggle="modal" data-bs-target="#paymentModal">Pagos en línea o referencias</a></h4>
+              <p>Recibe pagos con Tarjeta en linea. El padre entra a su panel y puede realizar su pago y comprobante</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-bounding-box-circles icon"></i></div>
+              <!-- <h4><a href="" class="stretched-link">Facturación electrónica</a></h4> -->
+              <h4><a href="#" class="stretched-link" data-bs-toggle="modal" data-bs-target="#paymentFact">Facturación electrónica</a></h4>
+              <p>Puedes generar, imprimir y enviar los CFDI con su complemento IEDU, de la forma más sencilla. Notas de crédito y refacturación</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-calendar4-week icon"></i></div>
+              <!-- <h4><a href="" class="stretched-link">Asistencia</a></h4> -->
+              <h4><a href="#" class="stretched-link" data-bs-toggle="modal" data-bs-target="#paymentAsist">Asistencia</a></h4>
+              <p>Los profesores entran a su panel, y pueden capturar calificaciones y asistencia de forma rápida y sin tanto click</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-broadcast icon"></i></div>
+              <!-- <h4><a href="" class="stretched-link">Actividades extraescolares</a></h4> -->
+              <h4><a href="#" class="stretched-link" data-bs-toggle="modal" data-bs-target="#paymentExtra">Actividades extraescolares</a></h4>
+              <p>Tambien controla esos cursos adicionales. Genera cargos, cobralos, controla horarios, asistencias, etc.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Services Section -->
+
+    <!-- Call To Action Section -->
+    <section id="call-to-action" class="call-to-action section dark-background">
+
+      <img src="assets/img/cta-bg.jpg" alt="">
+
+      <div class="container">
+
+        <div class="row" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-xl-9 text-center text-xl-start">
+            <h3>Contrata ahora</h3>
+            <p>No tenemos plazos forzosos, porque sabemos que esta herramienta tiene la solución en administración. Además constantemente presentamos mejoras al sistema que permite mantenerlo moderno y eficaz.</p>
+          </div>
+          <div class="col-xl-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="clientes/contratar.php">Contrata ahora</a>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Call To Action Section -->
+
+   
+
+    
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Precios</h2>
+        <p>Tenemos un paquete para cada necesidad. No dudes en contactarnos para cualquier duda.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="100">
+            <div class="pricing-item">
+              <h3>Plus Plan</h3>
+              <h4><sup>$</sup>6,000<span> / mes</span></h4>
+              <p>Versión completa y mejorada de forma personalizada para clientes que requieren de implementar procesos unicos en la plataforma</p>
+              <ul>
+                <li><i class="bi bi-check"></i> <span>TODO LO QUE INCLUYE EL SMART PLAN.</span></li>
+                <li><i class="bi bi-check"></i> <span>Sistema implementado a la medida.</span></li>
+                <li><i class="bi bi-check"></i> <span>El mejor tiempo de respuesta en soporte técnico.</span></li>
+                <li><i class="bi bi-check"></i> <span>Diseño de nuevas herramientas totalmente personalizadas.</span></li>
+                <!-- <li class="na"><i class="bi bi-x"></i> <span>Pharetra massa massa ultricies</span></li>
+                <li class="na"><i class="bi bi-x"></i> <span>Massa ultricies mi quis hendrerit</span></li> -->
+              </ul>
+              <a href="clientes/contratar.php" class="buy-btn">Contratar ahora</a>
+            </div>
+          </div><!-- End Pricing Item -->
+
+          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="pricing-item featured">
+              <h3>Smart Plan</h3>
+              <h4><sup>$</sup>3,250<span> / mes</span></h4>
+              <p>Versión estandar que cumple con todas las necesidades del colegio y con las siguientes herramientas instaladas:</p>
+              <ul>
+                <li><i class="bi bi-check"></i> <span>Dominio propio y hosting.</span></li>
+                <li><i class="bi bi-check"></i> <span>Control de pagos</span></li>
+                <li><i class="bi bi-check"></i> <span>Reportes de caja</span></li>
+                <li><i class="bi bi-check"></i> <span>Cobranza</span></li>
+                <li><i class="bi bi-check"></i> <span>1000 timbres fiscales al mes</span></li>
+                <li><i class="bi bi-check"></i> <span>Control acádemico</span></li>
+                <li><i class="bi bi-check"></i> <span>Grupos, profesores, materias.</span></li>
+                <li><i class="bi bi-check"></i> <span>Calificaciones, registro de asistencia.</span></li>
+                <li><i class="bi bi-check"></i> <span>Boletas, reporte de concentrados.</span></li>
+                <li><i class="bi bi-check"></i> <span>Control de adeudos, becas, descuentos.</span></li>
+                <li><i class="bi bi-check"></i> <span>Envío de recordatorios de pago</span></li>
+              </ul>
+              <a href="clientes/contratar.php" class="buy-btn">Contratar ahora</a>
+            </div>
+          </div><!-- End Pricing Item -->
+
+          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="pricing-item">
+              <h3>Modular Plan</h3>
+              <h4><sup>$</sup>2,125<span> / mes</span></h4>
+              <p>Soluciones para problemas especificos. Podemos entregar una herramienta que ayude a tu institución que se adapte a la medida.</p>
+              <br>
+              <p>Si lo que necesitas es sólo una parte de nuestro sistema, podemos ayudarte por ejemplo con el módulo de cobranza, sin el de control escolar o viceversa.
+
+                Podemos programarlo y adecuerdo a tus necesidades, y posteriormente mejorarlo.</p>
+              <ul>
+               <li><i class="bi bi-check"></i> <span>Modulo de servicio a la medida.</span></li>
+              </ul>
+              
+              <a href="clientes/contratar.php" class="buy-btn">Contratar Ahora </a>
+            </div>
+          </div><!-- End Pricing Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Pricing Section -->
+
+    <!-- Testimonials Section -->
+    <!-- /Testimonials Section -->
+
+    <!-- Faq 2 Section -->
+    <section id="faq-2" class="faq-2 section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Preguntas frecuentes</h2>
+        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row justify-content-center">
+
+          <div class="col-lg-10">
+
+            <div class="faq-container">
+
+              <div class="faq-item faq-active" data-aos="fade-up" data-aos-delay="200">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>¿Qué es Gestor Escolar y cómo puede beneficiar a mi escuela?</h3>
+                <div class="faq-content">
+                  <p>Gestor Escolar es una solución integral diseñada para simplificar y optimizar la gestión administrativa de instituciones educativas. Nuestro software permite automatizar procesos como la administración de pagos, la comunicación entre padres, alumnos y profesores, el registro de calificaciones, y la generación de reportes. Al utilizar Gestor Escolar, tu escuela puede mejorar la eficiencia operativa, reducir errores, y ofrecer una mejor experiencia tanto para el personal como para los estudiantes y sus familias.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>¿Cómo se diferencia Gestor Escolar de otras soluciones de gestión escolar?</h3>
+                <div class="faq-content">
+                  <p>A diferencia de otras soluciones, Gestor Escolar ofrece una personalización total para adaptarse a las necesidades específicas de cada institución. Además, brindamos un soporte técnico dedicado y continuamos mejorando nuestro software basado en las sugerencias y necesidades de nuestros usuarios. Nuestra plataforma es intuitiva, fácil de usar, y se integra perfectamente con otras herramientas educativas que tu escuela ya esté utilizando.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item" data-aos="fade-up" data-aos-delay="400">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>¿Cómo se maneja la seguridad y privacidad de los datos en Gestor Escolar?</h3>
+                <div class="faq-content">
+                  <p>La seguridad y privacidad de los datos son nuestras máximas prioridades. Utilizamos protocolos de encriptación de nivel bancario para proteger la información sensible, y nuestro sistema está diseñado para cumplir con las normativas de protección de datos más estrictas. Además, realizamos copias de seguridad automáticas y mantenemos un monitoreo constante para prevenir cualquier tipo de acceso no autorizado.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item" data-aos="fade-up" data-aos-delay="500">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>¿Qué tipo de soporte y capacitación se ofrece con Gestor Escolar?</h3>
+                <div class="faq-content">
+                  <p>Ofrecemos soporte técnico personalizado para asegurar que tu escuela saque el máximo provecho de Gestor Escolar. Nuestro equipo está disponible para resolver cualquier duda o inconveniente que pueda surgir. Además, proporcionamos sesiones de capacitación para el personal de tu institución, asegurando que todos comprendan y puedan utilizar el software de manera eficiente desde el primer día.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item" data-aos="fade-up" data-aos-delay="600">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>¿Puedo probar Gestor Escolar antes de comprometerme a una compra?</h3>
+                <div class="faq-content">
+                  <p>Sí, ofrecemos una demostración gratuita de Gestor Escolar para que puedas explorar todas sus funcionalidades antes de tomar una decisión. Durante esta prueba, tendrás acceso completo al software y recibirás asistencia para configurar y personalizar la plataforma según las necesidades de tu escuela. Esto te permitirá evaluar si Gestor Escolar es la solución adecuada para tu institución sin ningún compromiso.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Faq 2 Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contacto</h2>
+        <p>Si necesita más información, o una demostración en vivo, podemos agendarlo </p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-5">
+
+            <div class="info-wrap">
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h3>Ubicación</h3>
+                  <p>Querétaro, México</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                <!-- <i class="bi bi-telephone flex-shrink-0"></i> -->
+                <a href="https://wa.me/524484882599" target="_blank" class="text-decoration-none">
+                  <i class="bi bi-telephone flex-shrink-0"></i>
+                </a>
+                <div>
+                  <h3>Whatsapp</h3>
+                  <p>+52 4484882599</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>Correo electrónico</h3>
+                  <p>ventas@gestorescolar.com.mx</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus" frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d84496.21750364269!2d-100.46624824173296!3d20.619050686817758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d35b8fdc5b9255%3A0x97b094aa561b832f!2sSantiago%20de%20Quer%C3%A9taro%2C%20Qro.!5e0!3m2!1ses-419!2smx!4v1724944787773!5m2!1ses-419!2smx"  frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              <!-- -->
+            </div> 
+          </div>
+
+          <div class="col-lg-7">
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <label for="name-field" class="pb-2">Tu nombre</label>
+                  <input type="text" name="name" id="name-field" class="form-control" required="">
+                </div>
+
+                <div class="col-md-6">
+                  <label for="email-field" class="pb-2">Tu correo</label>
+                  <input type="email" class="form-control" name="email" id="email-field" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <label for="subject-field" class="pb-2">Nombre de tu escuela</label>
+                  <input type="text" class="form-control" name="subject" id="subject-field" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <label for="message-field" class="pb-2">Mensaje</label>
+                  <textarea class="form-control" name="message" rows="10" id="message-field" required=""></textarea>
+                </div>
+
+                <div class="col-md-12">
+                  <!-- <div class="g-recaptcha" data-sitekey="6LfpyQQqAAAAAAb3iYT16iOSmx8KDQqzBEHaUOz9"></div> -->
+                  <div class="g-recaptcha" data-sitekey="6LfpyQQqAAAAAAb3iYT16iOSmx8KDQqzBEHaUOz9" data-callback="captchaVerified"></div>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Tu mensaje ha sido enviado. Gracias!</div>
+
+                  <!-- <button type="submit">Enviar mensaje</button> -->
+                  <div id="submit-button">
+                    <button type="submit">Enviar mensaje</button>
+                  </div>
+                </div>
+
+              </div>
+            </form>
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer">
+
+    <div class="footer-newsletter">
+      <!-- <div class="container">
+        <div class="row justify-content-center text-center">
+          <div class="col-lg-6">
+            <h4>Descarga nuestro Newsletter mensual</h4>
+            <p>Suscribete a nuestra publicación mensual y recibe las últimas noticias del ramo tech y sobre nuestros productos y servicios</p>
+            <form action="forms/newsletter.php" method="post" class="php-email-form">
+              <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Subscribete"></div>
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Su solicitud a sido enviada. Gracias!</div>
+            </form>
+          </div>
+        </div>
+      </div> -->
+      <!-- enlace de beehiiv -->
+      <!-- <iframe src="https://embeds.beehiiv.com/60687a04-3c6e-4599-96ab-f4a1c6cf2854" data-test-id="beehiiv-embed" width="100%" height="320" frameborder="0" scrolling="no" style="border-radius: 4px; border: 2px solid #e5e7eb; margin: 0; background-color: transparent;"></iframe> -->
+    </div>
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="d-flex align-items-center">
+            <span class="sitename">Gestor escolar</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p>Querétaro, México</p>
+            <p class="mt-3"><strong>Whatsapp:</strong> <span>4484882599</span></p>
+            <p><strong>Email:</strong> <span>ventas@gestorescolar.com.mx</span></p>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Links del sitio</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="#hero">Inicio</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#about">Acerca</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#services">Servicios</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Términos del servicio</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Soluciones del sistema</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Pagpos en línea</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Facturación electrónica</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Control de asistencia</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Actividades extraescolares</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-12">
+          <h4>Síguenos</h4>
+          <p>Conoce nuestros contenidos en nuestras redes sociales</p>
+          <div class="social-links d-flex">
+            <a href=""><i class="bi bi-twitter-x"></i></a>
+            <a href=""><i class="bi bi-tiktok"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Gestor Escolar 2024-2025</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="paymentModal" tabindex="-1" aria-labelledby="paymentModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="paymentModalLabel">Pagos en línea o referencias</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <!-- Aquí va el contenido de tu modal -->
+            <p>Recibe pagos con Tarjeta en línea. El padre entra a su panel y puede realizar su pago y comprobante.</p>
+            <img src="assets/img/01.jpg" alt="pago en línea" width="450px">
+            <!-- Puedes agregar más contenido o un formulario de pago aquí -->
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            <!-- Puedes agregar otros botones si es necesario -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 2-->
+    <div class="modal fade" id="paymentFact" tabindex="-1" aria-labelledby="paymentModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="paymentModalLabel">Facturación electrónica</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <!-- Aquí va el contenido de tu modal -->
+            <p>De una forma sencilla y rápida puedes generar CFDI con el complemento fiscal IEDU. También el mismo padre de familia puede generar su factura de una forma sencilla.</p>
+            <img src="assets/img/02.jpg" alt="CFDI IEDU" width="450px">
+            <!-- Puedes agregar más contenido o un formulario de pago aquí -->
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            <!-- Puedes agregar otros botones si es necesario -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 3-->
+    <div class="modal fade" id="paymentAsist" tabindex="-1" aria-labelledby="paymentModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="paymentModalLabel">Asistencia</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <!-- Aquí va el contenido de tu modal -->
+            <p>El profesor puede registrar las asistencias y el coordinador, puede consultar en cualquier momento el resultado, diaro, semanal, mensual, etc.</p>
+            <img src="assets/img/03.jpg" alt="Registro de asistencia" width="450px">
+            <!-- Puedes agregar más contenido o un formulario de pago aquí -->
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            <!-- Puedes agregar otros botones si es necesario -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 4-->
+    <div class="modal fade" id="paymentExtra" tabindex="-1" aria-labelledby="paymentModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="paymentModalLabel">Actividades extraescolares</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <!-- Aquí va el contenido de tu modal -->
+            <p>No dejes fuera las actividades extraescolares. Si también las debes cobrar y registrar en asistencia, podemos configurar el sistema para tu escuela</p>
+            <img src="assets/img/04.jpg" alt="Actividades extraescolares" width="450px">
+            <!-- Puedes agregar más contenido o un formulario de pago aquí -->
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            <!-- Puedes agregar otros botones si es necesario -->
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script>
+    // Función llamada cuando reCAPTCHA es verificado con éxito
+    function captchaVerified() {
+        document.getElementById('submit-button').style.display = 'block';
+    }
+  </script>
+</body>
+
+</html>
