@@ -39,7 +39,7 @@ try {
     //Content
     $mail->isHTML(true); 
     $mail->Subject = $subject;
-    $mail->Body    = $mensaje;
+    $mail->Body    = $mensaje."||".$correo;
     $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
     //$mail->addAttachment($archivo);
     // Activo condificacción utf-8
